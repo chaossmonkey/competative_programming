@@ -91,8 +91,7 @@ GraphNode *buildGraph()
 	v.push_back(node2);
 	v.push_back(node4);
 	node3->neighbours = v;
-	v.clear();
-	v.push_back(node3);
+
 	v.push_back(node1);
 	node4->neighbours = v;
 	return node1;
